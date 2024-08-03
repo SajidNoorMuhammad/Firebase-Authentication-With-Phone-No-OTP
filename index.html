@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Authentication</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="glass">
+            <h2>Phone Authentication</h2>
+            <div id="phone-auth">
+                <input type="" id="phone" placeholder="Enter Phone Number" required>
+                <button id="phoneBtn">Submit</button>
+                <div id="recaptcha"></div>
+            </div>
+            <div id="otp-auth">
+                <input type="text" id="otp" placeholder="Enter OTP" required>
+                <button id="verifyOtp">Verify OTP</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+    <script type="module" src="firebase.js"></script>
+</body>
+
+</html>
